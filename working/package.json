@@ -1,0 +1,19 @@
+{
+  "name": "repro-react-intl-ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "4.0.2"
+  },
+  "dependencies": {
+    "@formatjs/intl-getcanonicallocales": "1.4.1",
+    "@formatjs/intl-numberformat": "5.4.1",
+    "intl-messageformat-parser": "5.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intl": "4"
+  }
+}
