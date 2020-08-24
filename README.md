@@ -1,4 +1,4 @@
-## Breaking changes in indirect dependencies of react-intl relying on es-abstract due to expanded ts --lib requirements
+## Breaking changes in TypeScript projects due to indirect dependencies of react-intl relying on es-abstract due to expanded tsc --lib requirements
 There are two folders with identical `package.json` and `tsconfig.json`. The only difference is in the dependency versions in `yarn.lock`. One builds successfully and the other does not.
 
 ### `breaking/`
